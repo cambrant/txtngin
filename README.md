@@ -12,3 +12,13 @@ code. For example, the user can write one text file (think a wiki page) and then
 process the contents of that file in another file which runs as a script. An
 example is included under /contents/, where "today" pulls and processes data
 from "tobuy" and "todo".
+
+## Warning
+Don't host this where the public can find it. Any Python code is executed as is,
+using the real interpreter ran by the current user so this will have serious
+security implications. Any user could inject any malicious code to be ran off
+your server.
+
+I briefly considered implementing a simple domain specific language for simple
+intra site scripting, but since I consider this project mostly done (I now know
+how web.py works in comparison to Django and Flask) I won't update this much.
