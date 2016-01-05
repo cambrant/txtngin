@@ -1,0 +1,6 @@
+!py
+for line in read('1234'):
+    print line
+
+print 'a ' * 4
+print 'b ' * 4

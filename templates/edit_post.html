@@ -1,0 +1,8 @@
+$def with (form, name)
+
+<p><a href="/contents/$name">Back</a></p>
+
+<h2>$name</h2>
+<form method="POST">
+    $:form.render()
+</form>

@@ -1,0 +1,10 @@
+!py
+
+todo = read('todo')
+tobuy = read('tobuy')
+
+print 'Do:'
+print ' '.join(todo[1].split()[1:])
+print
+print 'Buy:'
+print ' '.join(tobuy[1].split()[1:])
