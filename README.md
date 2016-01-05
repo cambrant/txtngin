@@ -4,7 +4,9 @@ server.
 
 In addition to the simple wiki-like behavior, if a file is prepended with a line
 containing the following string:
-```!py```
+```
+!py
+```
 it will allow the user to manipulate the text (or anything really) with Python
 code. For example, the user can write one text file (think a wiki page) and then
 process the contents of that file in another file which runs as a script. An
